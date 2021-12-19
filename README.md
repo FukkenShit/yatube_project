@@ -27,4 +27,4 @@ pip3 instal -r requirements.txt
 - Django 2.2.19
 
 ## Авторы
-- https://github.com/FukkenShit/
+- [@FukkenShit](https://github.com/FukkenShit)
