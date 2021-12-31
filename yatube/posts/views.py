@@ -2,7 +2,15 @@ from django.shortcuts import render
 
 
 def index(request):
-    return render(request, 'posts/index.html')
+    template = 'posts/index.html'
+    context = {
+        'text': 'Это главная страница проекта Yatube'
+    }
+    return render(request, template, context)
 
 def group_posts(request, slug):
-    return render(request, 'posts/group_list.html')
+    template = 'posts/group_list.html'
+    context = {
+        'text': 'Здесь будет информация о группах проекта Yatube'
+    }
+    return render(request, template, context)
