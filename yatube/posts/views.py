@@ -8,6 +8,7 @@ def index(request):
     }
     return render(request, template, context)
 
+
 def group_posts(request, slug):
     template = 'posts/group_list.html'
     context = {
